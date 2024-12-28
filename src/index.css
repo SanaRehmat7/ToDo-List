@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
+
+h1 {
+  @apply font-bold text-3xl md:text-4xl pt-14;
+}
+
+p {
+  @apply leading-relaxed;
+}
+
